@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   title: "ColossalCodes",
   description: "Master TypeScript, Rust, and cutting-edge technologies with ColossalCodes.",
   icons: {
-    icon: "/logo/large_cc.png",
+    icon: "/large_cc.ico",
   },
 };
 
@@ -29,9 +29,6 @@ export default function RootLayout({
 }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="en">
-      <head>
-        <link rel="icon" href="/logo/large_cc.ico" sizes="any" />
-      </head>
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased bg-neutral-8 text-neutral-1`}>
         {children}
       </body>

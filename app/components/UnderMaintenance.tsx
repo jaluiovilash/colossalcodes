@@ -6,7 +6,7 @@ const UnderMaintenance = () => {
                 Our site is currently undergoing maintenance to improve your experience.
                 Please check back later. We appreciate your patience!
             </p>
-            <div className="mt-6 text-sm text-gray-500">&copy; {new Date().getFullYear()} ColossalCodes</div>
+            <div className="mt-6 text-sm text-gray-500">&copy; {new Date().getFullYear()} ColossalCodes by jaluiovilash</div>
         </div>
     );
 };
