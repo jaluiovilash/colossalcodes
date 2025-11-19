@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+Sitemap: https://colossalcodes.vercel.app/sitemap.xml
+Host: https://colossalcodes.vercel.app
+
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 1
