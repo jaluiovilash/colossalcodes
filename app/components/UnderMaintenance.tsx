@@ -31,8 +31,10 @@ const UnderMaintenance = () => {
 
       {/* Subtitle */}
       <p className="text-sm sm:text-base md:text-lg text-gray-300 max-w-3xl md:max-w-3xl mb-6 z-10 leading-relaxed">
-        We’re upgrading the system to deliver a more powerful and advanced
-        ColossalCodes platform.{" "}
+        Our system is undergoing a major rebuild to power the next generation of
+        learning tools. A more advanced, more capable
+        <span className="text-orange-600 font-semibold"> ColossalCodes</span> is
+        being crafted behind the scenes.
       </p>
 
       {/* Divider */}
@@ -44,10 +46,10 @@ const UnderMaintenance = () => {
         target="_blank"
         rel="noopener noreferrer"
         className="
-          px-4 py-2 
-          sm:px-6 sm:py-3 
+          px-3 py-2 
+          sm:px-5 sm:py-3 
           text-sm sm:text-base md:text-lg text-gray-900
-          rounded-xl font-bold
+          rounded-xl font-semibold
           bg-gradient-to-r from-orange-400 to-orange-600 
           shadow-[0_0_15px_rgba(255,120,0,0.6)]
           hover:shadow-[0_0_25px_rgba(255,120,0,0.9)]
